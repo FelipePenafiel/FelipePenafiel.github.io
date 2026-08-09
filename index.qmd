@@ -1,7 +1,13 @@
 ---
-title: "FelipePenafiel"
+title: "Felipe Penafiel"
+about:
+  template: trestles
+  image: profile.jpg
+  links:
+    - icon: envelope
+      href: mailto:ton.email@ensae.fr
+    - icon: github
+      href: https://github.com/FelipePenafiel
+    - text: arXiv
+      href: https://arxiv.org/a/tonidentifiant
 ---
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

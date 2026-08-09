@@ -1,21 +1,30 @@
 project:
   type: website
+  output-dir: _site
+  resources:
+    - CNAME
 
 website:
-  title: "FelipePenafiel"
+  title: "Felipe Penafiel"
+  description: "Probabilités, statistique, dynamiques d'opinion"
   navbar:
-    left:
+    right:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: Accueil
+      - href: research.qmd
+        text: Recherche
+      - href: cv.qmd
+        text: CV
+      - href: blog.qmd
+        text: Notes
+  page-footer:
+    center: "Construit avec Quarto"
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
     toc: true
+    html-math-method: mathjax
 
-
-
+bibliography: references.bib
